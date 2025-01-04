@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
   standalone: false,
+  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
-  title = 'bases';
+  title = 'Mi Primera App de Angular';
+
 }
+
